@@ -1,10 +1,11 @@
+## Functions to demonstrate lexical scoping in R. Reuses 
+## results from cache if already computed
+
 ## makeCacheMatrix creates a new "special" matrix 
 ## container that supports functions to set, get and
 ## compute inverse of matrix
 ## 
 
-
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
   invMtx <- NULL
